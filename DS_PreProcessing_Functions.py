@@ -59,8 +59,7 @@ def load_obj(name, file_path):
 def reduce_mem_usage(df):
     """ 
     iterate through all the columns of a dataframe and modify the data type
-        to reduce memory usage. 
-    Note: Use after PreProcessing step   
+        to reduce memory usage.   
     
     Parameters
     -----
